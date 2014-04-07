@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>JSON Sorter</title>
+
+    <!-- Bootstrap core CSS and theme -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>   
+
+    	<div class="container-fluid">
+
+    		<div class="row title">
+    			<img src="images/title.png" />
+    		</div>
+
+    		<div class="row">
+    			<div class="col-md-12">
+	    			<div class="alert alert-info">
+	    				<strong>JSON Sorter</strong> is a simple utility to sort your JSON object based on keys. This works for nested objects too. Just paste your well formed JSON on the left and get the awesome on the right. If you want to use the sorting programatically, <a href="#">here</a> is the gist.
+	    			</div>
+	    		</div>	
+    		</div>
+
+	      	<div class="row">
+
+	      		<div class="col-md-6">
+
+	      			<textarea id="input" class="form-control" rows="20"></textarea>
+	      		
+	      		</div>
+	      	
+		      	<div class="col-md-6">
+
+		      		<textarea id="output" class="form-control" rows="20" disabled="disabled"></textarea>
+		      		
+		      	</div>
+	        
+	      	</div>
+
+            <div class="row">
+               <div id="error" class="col-md-12"></div>               
+            </div>
+
+	      	<div class="row">
+	      		<div class="col-md-12">
+	      			<button id="sort" type="button" class="btn btn-primary col-md-12">SORT</button>
+	      		</div>	
+	      	</div>
+
+	      	
+
+		    <footer class="row">
+		    	<p>Copyrights are outdated! Bragging rights belong to me :D ...</p>
+		    </footer>
+
+    	</div>
+
+	    <script src="js/jquery-1.11.0.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/main.js"></script>
+  	</body>
+</html>

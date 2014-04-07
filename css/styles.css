@@ -1,0 +1,36 @@
+.row{
+	padding: 0px 25px 0px 25px;
+}
+
+.title{
+	background: #000000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer{
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+}
+
+footer p{
+	text-align: center;
+}
+
+button{
+   margin-top: 10px;
+}
+
+.alert-info{
+	margin: 10px 0px 10px 0px;
+}
+
+.alert-danger{
+   margin: 10px 0px 0px 0px;
+}
+
+textarea{
+   font-size: 16px;
+   font-weight: 700;
+}
