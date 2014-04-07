@@ -14,7 +14,7 @@ $(document).ready(function(){
                   
       }
       else{
-         $('#error').html('<div class="alert alert-danger"><strong>Nice try :P</strong></div>');
+         $('#error').html('<div class="alert alert-danger"><strong>Please paste in a JSON object to sort</strong></div>');
       }  
 	});
 });
